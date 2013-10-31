@@ -3,7 +3,7 @@ anki-replaceall
 
 Experimental anki add-on which fills an expression into a given field of all notes in an Anki model.
 
-**Only use this add-on if you know exactly what you are doing! It may irreversibly alter a large number of notes in your collection!**
+**Only use this add-on if you know exactly what you are doing! It may irreversibly damage your collection!**
 
 Motivation
 ----------
