@@ -3,7 +3,7 @@ anki-replaceall
 
 Experimental anki add-on which fills an expression into a given field of all notes in an Anki model.
 
-Disclaimer: Only use this add-on if you know exactly what you are doing! It may irreversibly alter a large number of notes in your collection!
+**Only use this add-on if you know exactly what you are doing! It may irreversibly alter a large number of notes in your collection!**
 
 Motivation
 ----------
@@ -14,7 +14,7 @@ However, sometimes it's convenient to use a naming convention for media files ba
 
 If our model is only used by three notes, with values for `Expression` ("Dog", "Cat", "Mouse"), and a field for the audio file `Audio`, then it would not be much work to just manually write the following values to the `Audio` field ("[sound:Dog.mp3]","[sound:Cat.mp3]","[sound:Mouse.mp3]") which would allow us to include the media in our flash cards.
 
-However, if our model is used by hundreds or thousands of notes, this would be very laborious. It would be much more convenient to have a "replaceall" feature which automatically writes `[sound:{{Expression}}.mp3]` to the `Audio` field of all notes of a given model in our collection. This is exactly what this plugin does.
+However, if our model is used by hundreds or thousands of notes, this would be very laborious. It would be much more convenient to have a "replace all" feature which automatically writes `[sound:{{Expression}}.mp3]` to the `Audio` field of all notes of a given model in our collection. This is exactly what this plugin does.
 
 Usage
 -----
