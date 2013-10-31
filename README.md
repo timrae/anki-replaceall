@@ -12,9 +12,9 @@ As per the [Anki documentation](http://ankisrs.net/docs/manual.html#_media_amp_l
 
 However, sometimes it's convenient to use a naming convention for media files based on the content of other fields. For example we might have a model with a field `Expression`, and we want to have a corresponding audio file using the naming convention `{{Expression}}.mp3`. 
 
-If our model is only used by three notes, with values for `Expression` ("Dog", "Cat", "Mouse"), and a field for the audio file `Audio`, then it would not be much work to just manually write the following values to the `Audio` field ("[sound:Dog.mp3]","[sound:Cat.mp3]","[sound:Mouse.mp3]") which would allow us to include the media in our flash cards.
+If our model is only used by three notes, with values for `Expression` ("Dog", "Cat", "Mouse"), and we have a field for the audio file called `Audio`, then it would not be much work to just manually write the following values to the `Audio` field ("[sound:Dog.mp3]","[sound:Cat.mp3]","[sound:Mouse.mp3]") which would allow us to include these sound files in our flash cards by simply including the line `{{Audio}}` in our card template.
 
-However, if our model is used by hundreds or thousands of notes, this would be very laborious. It would be much more convenient to have a "replace all" feature which automatically writes `[sound:{{Expression}}.mp3]` to the `Audio` field of all notes of a given model in our collection. This is exactly what this plugin does.
+However, if our model is used by hundreds or thousands of notes, this would be very laborious. It would be much more convenient to have a "replace all" feature which automatically renders a pattern like `[sound:{{Expression}}.mp3]` to the `Audio` field of all notes of a given model in our collection. This is exactly what this plugin does.
 
 Usage
 -----
